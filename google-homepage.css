@@ -1,0 +1,217 @@
+
+/* NOW LETS ADD SOME STYLING! */
+.Gnav{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin: 5px;
+    color:gray;
+}
+.Gnav a{
+   margin: 7px;
+   color: gray;
+}
+.Gnav a#sign-in{
+    color:#fff;
+}
+.links{
+    padding-top: 7px;
+}
+
+#googlecon{
+    align-content: center;
+    text-align: center;
+    display:flex;
+    flex-flow: column wrap ;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+#search{
+    margin-top: 20px;
+    width: 650px;
+    height: 30px;
+    font-size: 15px;
+    border-color: #4d4dff;
+    border-width: 1px;
+    padding: 20px 35px 20px 8px;
+
+}
+#searchcon{
+    position: relative;
+}
+.voiceSearch{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+}
+#sign-in{
+    font-weight: 600;
+}
+#google-logo{
+    width:400;
+    height: 100;
+  
+}
+img voice-search{
+    margin-right:8px;
+}
+#btn{
+    margin:20px 5px;
+    text-decoration: none;
+    border:none;
+     background-color: #e7e7e7;
+      color: gray;
+      font-weight: 600;
+      width: 135px;
+      height: 35px;
+}
+#btn:hover{
+    background-color: #f5f5ef;
+    color: black;
+    border: 1px,none, darkgray ;
+}
+
+/* RESULTS PAGE CSS */
+
+.Rnav{
+    text-decoration: none;
+    padding: 10px 0px 10px 10px;
+    background-color:#f1f1f1;
+    
+}
+#search2{
+    height: 40px;
+    width: 550px;
+    margin: 0px;
+}
+.Rnav2{
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 1px solid #f5f5ef;
+    border-width: 100%;
+    color: gray;
+    list-style-type: none;
+     flex-direction: flex-start;
+    width: 30%;
+    margin-left: 60px;
+
+}
+.Rnav2 a{
+    color: gray;
+    display: flex;
+   
+}
+.Rnav-btns{
+    position:absolute;
+    right: 2%;
+    top: 1%;
+}
+
+#navposition{
+        display:flex;
+        flex-direction: flex-start;
+        justify-content: space-between;
+        max-width: 550px;
+        
+}
+#navposition2{
+        position: absolute;
+        left: 95%;
+        top: 8%;
+}
+.results{
+    margin-top:1%;
+    margin-left: 6%;
+    font-size: 10pt;
+    color:#545454;
+}
+.images{
+    margin-top:1%;
+    margin-left: 6%;
+    
+}
+       
+
+.btn-search{
+    height:40px;
+    text-decoration: none;
+    background-color: #0066ff;
+    color:white;
+    width: 40px;
+    border: none;
+
+}
+#btn-settings{
+    width: 60px;
+    height: 33px;
+    background-color: #f1f1f1;
+    border: 1px solid #0066ff ;
+    padding: 5px; 
+}
+#searchcon2{
+    position: relative;
+    
+}
+#searchResults{
+    display:flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40%;
+}
+.search-results{
+        margin-left: 15%;
+}
+ul{
+    list-style-type: none;
+}
+.footer-options:nth-child(1){
+    margin-left: 5%;
+}
+.footer-options{
+    padding:5px;
+    text-decoration: none ;
+    color:#545454;
+}
+.footer-options:hover{
+    color: #404040;
+}
+
+.search-related{
+    display:flex;
+    flex-direction: flex-start;
+    margin-right: 35% ;
+}
+.related-results{
+    flex-direction: column;
+    margin-left: 3%;
+}
+#google-pages{
+    margin-left: 15% ;
+    padding: 20px;
+}
+.toplink{
+    font-size: 16pt ;
+    color: #1a0dab
+}
+.greenlink{
+    font-size: 12pt;
+    color:#006621;
+}
+.snippet-text{
+    font-size: 11pt;
+    color:#545454
+}
+.related-links{
+    color:#1a0dab;
+    
+}
+.search-header{
+    margin-left:6%;
+}.voiceSearch2{
+    position: absolute;
+    top:2%;
+    left:640px;
+    
+}
